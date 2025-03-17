@@ -594,6 +594,10 @@ export const enComponentRoutes = [
   {
     path: 'marquee',
     component: () => import('../../src/marquee/demos/enUS/index.demo-entry.md')
+  },
+  {
+    path: 'search',
+    component: () => import('../../src/search/demos/enUS/index.demo-entry.md')
   }
 ]
 
@@ -1007,6 +1011,10 @@ export const zhComponentRoutes = [
   {
     path: 'marquee',
     component: () => import('../../src/marquee/demos/zhCN/index.demo-entry.md')
+  },
+  {
+    path: 'search',
+    component: () => import('../../src/search/demos/zhCN/index.demo-entry.md')
   }
 ]
 

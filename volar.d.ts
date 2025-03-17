@@ -152,6 +152,7 @@ declare module 'vue' {
     NWatermark: (typeof import('naive-ui'))['NWatermark']
     NHighlight: (typeof import('naive-ui'))['NHighlight']
     NMarquee: (typeof import('naive-ui'))['NMarquee']
+    NSearch: (typeof import('naive-ui'))['NSearch']
   }
 }
 export {}

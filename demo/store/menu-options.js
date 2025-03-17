@@ -313,6 +313,13 @@ export function createComponentMenuOptions({ lang, theme }) {
           enSuffix: true,
           path: '/float-button',
           isNew: true
+        },
+        {
+          en: 'Search',
+          zh: '搜索',
+          enSuffix: true,
+          path: '/search',
+          isNew: true
         }
       ]
     }),
